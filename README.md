@@ -7,7 +7,7 @@
 - Run Flask app:
 `python app.py`
 
-# Running the Flask Application using Docker for Production
+# Running the Flask Application using Docker for Production using gunicorn
 - Set `app.run(debug=False)`
 - Run `docker build -t app .`
 - Run `docker run -p 8000:8000 app`
